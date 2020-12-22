@@ -12,4 +12,3 @@ def rename(dir, pattern, titlePattern):
                   os.path.join(dir, titlePattern % title + ext))
 
 # rename(r'directory path', r'*.jpg', r'ResearcherLastName_%s')
-rename(r'/Users/alimehdi/Desktop/Pytri/Tito_data1', r'*.jpg', r'Titorenko_%s')
